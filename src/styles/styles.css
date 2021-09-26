@@ -1,0 +1,152 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+  font-family: 'Raleway', sans-serif;
+  /* letter-spacing: 1.3px; */
+}
+
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(63,34,150,1) 35%, rgba(5,59,149,1) 100%);
+  font-size: 1.8rem;
+  color: azure;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+section{
+  margin: 20px auto;
+  padding: 15px;
+  width: 600px;
+  background-color: rgba(0,0,0,0.1);
+  box-shadow: 2px 5px 6px -3px rgba(0,0,0,0.63),-5px -1px 14px -4px rgba(0,0,0,0.46);
+}
+
+
+.welcome{
+  margin-top: 5%;
+  padding: 30px;
+  width: 700px;
+  text-align: center;
+  background-color: rgba(0,0,0,0.1);
+  box-shadow: 2px 5px 6px -3px rgba(0,0,0,0.63),-5px -1px 14px -4px rgba(0,0,0,0.46);
+  
+}
+
+
+.welcome>*{
+  margin-top: 5rem;
+
+}
+
+.welcome h2{
+  font-size: 6rem;
+}
+
+.welcome .welcome-form{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.welcome .name{
+  margin-bottom: 10px;
+  height: 3.5rem;
+  width: 80%;
+  border-radius: 5px;
+  padding: 1rem;
+  border: none;
+  text-align: center;
+}
+.welcome.name::placeholder{
+  color:#999;
+  
+}
+
+.welcome .name:focus-visible{
+  outline: none;
+}
+
+.game-start{
+  height: 4rem;
+  width: 30%;
+  color:black;
+  font-weight: bold;
+}
+
+.game-start:hover{
+  background-color: orange;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+/*GAME BOX*/
+.info-container{
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.questions-container{
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.questions-item{
+  text-align: center;
+  align-self: stretch;
+}
+
+.btn-container{
+  height: 80%;
+}
+.btn-container input{
+  border-radius: 8px;
+  border: none;
+}
+.btn-container input:hover{
+  background-color: orange;
+  border: none;
+  
+}
+
+.helps-container{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+/* .helps-container p{
+  margin: inherit 33%;
+} */
+
+.btn-container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap:10px;
+  margin-top: 20px;
+}
+
+.correct{
+  background-color: green;
+}
+
+.incorrect{
+  background-color: red;
+
+
+}

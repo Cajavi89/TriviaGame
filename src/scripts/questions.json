@@ -1,0 +1,131 @@
+[
+  {
+    "round":
+     [ {
+        "dificult":"Easy",
+        "category":"Culture",
+        "question":"who painted the mona lisa?",
+        "answers":["Leonardo Davinci","Dali","Miguel Angelo","Leonardo Dicaprio"],
+        "correctAnswer":"Leonardo Davinci"
+      },
+      {
+        "dificult":"Easy",
+        "category":"Technology",
+        "question":"What is the most popular Operative System?",
+        "answers":["MacOS","Linux","Android","Windows"],
+        "correctAnswer":"Windows"
+      },
+      {
+        "dificult":"Easy",
+        "category":"Videogames",
+        "question":"From where is Mario Brothers?",
+        "answers":["Dynmark","Italy","Japan","Qatar"],
+        "correctAnswer":"Japan"
+      },
+      {
+        "dificult":"Easy",
+        "category":"Movies",
+        "question":"Hulk, Spiderman, Ironman, are subjects from?",
+        "answers":["Justice League","The Simpsons","The Avengers","South Park"]
+      }],
+    "correctAnswers":["Leonardo Davinci","Windows","Japan","The Avengers"]
+
+  },
+    {"round":[
+      {
+        "dificult":"Medium",
+        "category":"Culture",
+        "question":"What is the longest river in the world?",
+        "answers":["Nile","Amazonas","Missouri","Volga"],
+        "correctAnswer":"Nile"
+      },
+      {
+        "dificult":"Medium",
+        "category":"Technology",
+        "question":"What is a 'trending topic'?",
+        "answers":["Messages on facebook","News technologies useds in trains","Older memes","Topics that are tendencing on Twitter"],
+        "correctAnswer":"Topics that are tendencing on Twitter"
+      },
+      {
+        "dificult":"Medium",
+        "category":"Videogames",
+        "question":"Who is the protagonist of 'Tomb Raider'",
+        "answers":["Wario","Lara Croft","Crash Bandicoot","Pikachu"],
+        "correctAnswer":"Lara Croft"
+      },
+      {
+        "dificult":"Medium",
+        "category":"Movies",
+        "question":"Howmuch movies has Harry Potter's saga?",
+        "answers":["10","3","8","9"],
+        "correctAnswer":"8"
+      }
+    ],
+    "correctAnswers":["Nile","Topics that are tendencing on Twitter","Lara Croft","8"]
+  },
+    {"round":[
+      {
+        "dificult":"Advanced",
+        "category":"Culture",
+        "question":"How many bones are in the human body?",
+        "answers":["130","206","52","321"],
+        "correctAnswer":"206"
+      },
+      {
+        "dificult":"Advanced",
+        "category":"Technology",
+        "question":"Internet of things are?",
+        "answers":["All the things that are obtained on the internet.","The thing that forms the heart of the internet","The internet that is used in anything.","The possibility of anything connecting to the internet"],
+        "correctAnswer":"The possibility of anything connecting to the internet"
+      },
+      {
+        "dificult":"Advanced",
+        "category":"Videogames",
+        "question":"How many sides does a heptagon have?",
+        "answers":["eight","three","ten","seven"],
+        "correctAnswer":"seven"
+      },
+      {
+        "dificult":"Advanced",
+        "category":"Movies",
+        "question":"Which actor gives life to Christopher Nolan's Batman?",
+        "answers":["Crhis Brown","Chris Evans","Chistian Bale","Cristiano Ronaldo"],
+        "correctAnswer":"Chistian Bale"
+      }
+    ],
+    "correctAnswers":["206","The possibility of anything connecting to the internet","seven","Chistian Bale"]
+  },
+    {"round":[
+      {
+        "dificult":"Expert",
+        "category":"Culture",
+        "question":"What is the animal that causes the most deaths each year?",
+        "answers":["Lions","Rhinos","Piranhas","mosquitoes"],
+        "correctAnswer":"mosquitoes"
+      },
+      {
+        "dificult":"Expert",
+        "category":"Technology",
+        "question":"'Big data' is known as:",
+        "answers":["The large amount of data in a computer.","Advanced technology dating back a long time.","Large accumulation of information exists on the internet","It is a Japanese supercomputer."],
+        "correctAnswer":"Large accumulation of information exists on the internet."
+      },
+      {
+        "dificult":"Expert",
+        "category":"Videogames",
+        "question":"when was invented 'Tetris game'?",
+        "answers":["1984","1972","1990","1945"],
+        "correctAnswer":"1984"
+      },
+      {
+        "dificult":"Expert",
+        "category":"Movies",
+        "question":"Which actor played Count Dracula in the Bram Stoker movie Dracula?",
+        "answers":["Gary switchman","Gary Oldman","Tom Hanks","Al Pacino"],
+        "correctAnswer":"Gary Oldman"
+      }
+    ],
+    "correctAnswers":["mosquitoes","Large accumulation of information that is produced and exists on the internet","1984","Gary Oldman"]
+  }
+  
+]

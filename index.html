@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tecnical Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/styles/styles.css">
+</head>
+<body>
+  
+  <div id="welcome-id" class="welcome" display="none">
+    <h2>Welcome</h2>
+    
+    <form id="welcome-form">
+      
+      <input type="text" id="name-input" class="name" placeholder="Insert your name here" required>
+      
+      <h3>Are you ready for this challenge?</h3>
+      
+      <input id="start-game" class="game-start" type="submit" value="YES"/>
+      
+    </form>
+    
+  </div>
+  
+  
+  <main id="main-section" hidden>
+    
+    <section class="info-container">
+      <div class="player-container">Player:</div>
+      <div class="category-container">Category:</div>
+      <div class="score-container">Score:</div>
+      <div class="dificult-container">Level:</div>
+      
+    </section>
+    <section class="questions-container">
+      <h1 class="round-title"></h1>
+      <div class="questions-item">Question</div>
+      <div class="btn-container">
+        
+        <input type="button" class="btnResponse-1" data-btn-response/>
+        <input type="button" class="btnResponse-2" data-btn-response/>
+        <input type="button" class="btnResponse-3" data-btn-response/>
+        <input type="button" class="btnResponse-4" data-btn-response/>
+      </div>
+    </section>
+    <section class="helps-container">
+      <button>Renunciar</button>
+      
+    </section>
+  </main>
+  
+  <script src="index.js" type="module"></script>
+</body>
+</html>
